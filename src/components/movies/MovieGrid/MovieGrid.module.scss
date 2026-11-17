@@ -1,0 +1,13 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($card-min-width, 1fr));
+  gap: 14px;
+
+  // На телефоне карточки чуть уже
+  @include below($bp-md) {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}

@@ -1,0 +1,16 @@
+.rating {
+  color: var(--color-border); // «пустые» звёзды
+  letter-spacing: 1px;
+}
+
+.sm {
+  font-size: 15px;
+}
+
+.md {
+  font-size: 20px;
+}
+
+.filled {
+  color: var(--color-star);
+}

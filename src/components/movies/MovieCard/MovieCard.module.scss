@@ -1,0 +1,82 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.card {
+  position: relative; // нужен для растянутой кнопки .open
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: $radius-xl;
+  background: var(--color-card);
+  transition: transform 0.12s;
+  @include ledge(var(--color-ledge));
+
+  &:hover {
+    border-color: var(--color-primary);
+    transform: translateY(-3px);
+  }
+
+  // Рамка фокуса вокруг всей карточки, когда в фокусе кнопка с названием
+  &:has(.open:focus-visible) {
+    outline: 3px solid var(--color-focus);
+    outline-offset: 2px;
+  }
+}
+
+.year {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  z-index: 1;
+  padding: 2px $space-2;
+  border-radius: $radius-pill;
+  background: rgba(0, 0, 0, 0.3);
+  color: $white;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.body {
+  padding: 9px 11px 11px;
+}
+
+.title {
+  margin: 0;
+  min-height: 35px; // две строки: карточки в ряду выравниваются
+}
+
+.open {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--color-text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: left;
+  cursor: pointer;
+
+  // Невидимый слой на всю карточку
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+
+  &:focus-visible {
+    outline: none; // рамку рисует сама карточка (см. .card)
+  }
+}
+
+.titleText {
+  @include line-clamp(2);
+}
+
+.genres {
+  margin: 2px 0 $space-1;
+  color: var(--color-muted);
+  font-size: 12px;
+}

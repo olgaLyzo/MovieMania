@@ -1,0 +1,94 @@
+// ============================================================
+// Миксины: повторяющиеся приёмы, чтобы не копировать одни и те же
+// строки стилей в разные компоненты (принцип DRY).
+// Некоторые значения берутся из CSS-переменных темы (base/_theme.scss);
+// если переменной ещё нет, используется запасное значение из токенов.
+// ============================================================
+@use "tokens" as *;
+
+// Стили для экранов не шире брейкпоинта.
+// Пример: @include below($bp-md) { flex-direction: column; }
+@mixin below($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+// Видимая рамка при навигации с клавиатуры (доступность).
+@mixin focus-ring($color: var(--color-focus, #{$purple-500})) {
+  &:focus-visible {
+    outline: 3px solid $color;
+    outline-offset: 2px;
+  }
+}
+
+// «Ребро» под элементом: плоская тень вниз, создаёт объёмный (3D) вид.
+// Пример: @include ledge(var(--color-ledge), $ledge-lg);
+@mixin ledge($color, $depth: $ledge-md) {
+  box-shadow: 0 $depth 0 $color;
+}
+
+// Объёмная кнопка. По умолчанию янтарная;
+// при нажатии становится фиолетовой и «вдавливается».
+@mixin button-3d(
+  $bg: $amber-300,
+  $color: $amber-900,
+  $edge: $amber-600,
+  $radius: $radius-lg
+) {
+  border: none;
+  border-radius: $radius;
+  background: $bg;
+  color: $color;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.12s,
+    color 0.12s;
+  @include ledge($edge);
+  @include focus-ring;
+
+  &:active:not(:disabled) {
+    background: $purple-500;
+    color: $white;
+    transform: translateY(2px);
+    @include ledge($purple-700, $ledge-sm);
+  }
+
+  &:disabled {
+    background: var(--color-border, #{$purple-200});
+    color: var(--color-muted, #{$purple-400});
+    box-shadow: none;
+    cursor: default;
+  }
+}
+
+// Обрезка текста до N строк с многоточием.
+@mixin line-clamp($lines) {
+  display: -webkit-box;
+  -webkit-line-clamp: $lines;
+  line-clamp: $lines;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+// Скрыть элемент визуально, но оставить для скринридеров
+// (например, служебные заголовки).
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+// Заголовочный шрифт. У Abril Fatface одно начертание,
+// поэтому weight: 400, иначе браузер нарисует «жирный» искусственно.
+@mixin font-display {
+  font-family: $font-display;
+  font-weight: 400;
+}

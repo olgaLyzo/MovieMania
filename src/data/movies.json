@@ -1,0 +1,614 @@
+{
+  "collectionId": "dance-movies",
+  "collectionTitle": {
+    "ru": "Фильмы о танцах",
+    "en": "Dance Movies"
+  },
+  "schemaVersion": 1,
+  "notes": {
+    "ru": "Все фильмы имеют moods=[dance]. Все записи draft. posterUrl=null означает, что прямой URL изображения ещё нужно проверить и добавить. quotes.status=pending_verification означает, что подборка цитат ещё не проверена; notFoundMessage используется только после проверки, если цитат не найдено.",
+    "en": "All films use moods=[dance]. All records are drafts. posterUrl=null means a direct image URL still needs verification. quotes.status=pending_verification means quotes have not yet been checked; use notFoundMessage only after checking and finding no notable quotes."
+  },
+  "movies": [
+    {
+      "id": "stomp-the-yard-2007",
+      "title": {
+        "original": "Stomp the Yard",
+        "ru": "Братство танца"
+      },
+      "year": 2007,
+      "genres": [
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Талантливый уличный танцор поступает в университет и оказывается в центре соперничества студенческих братств, где командный танец становится испытанием характера и верности.",
+        "en": "A gifted street dancer enters college and gets drawn into rival fraternity step competitions, where teamwork, loyalty, and discipline are put to the test."
+      },
+      "editorialNote": {
+        "ru": "Энергичная история о том, как индивидуальный талант учится работать на команду; особенно понравится поклонникам баттлов и степпинга.",
+        "en": "An energetic story about learning to turn individual talent into teamwork, especially appealing to fans of dance battles and stepping."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 54 мин",
+      "director": "Sylvain White",
+      "posterUrl": "/dances/stomp-the-yard-2007.jpg",
+      "ratings": 5
+    },
+    {
+      "id": "step-up-2006",
+      "title": {
+        "original": "Step Up",
+        "ru": "Шаг вперёд"
+      },
+      "year": 2006,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Уличный танцор Тайлер получает шанс изменить свою жизнь, когда знакомится с талантливой студенткой балетной школы и помогает ей подготовиться к важному выступлению.",
+        "en": "Street dancer Tyler gets a chance to change his life after meeting a gifted dance student and helping her prepare for an important performance."
+      },
+      "editorialNote": {
+        "ru": "Романтическая история о столкновении разных танцевальных миров, амбициях и поиске собственного пути.",
+        "en": "A romantic story about contrasting dance worlds, ambition, and finding a path of one's own."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 44 мин",
+      "director": "Anne Fletcher",
+      "posterUrl": "/dances/step-up-2006.jpeg",
+      "ratings": 5
+      
+    },
+    {
+      "id": "take-the-lead-2006",
+      "title": {
+        "original": "Take the Lead",
+        "ru": "Держи ритм"
+      },
+      "year": 2006,
+      "genres": [
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Преподаватель бальных танцев начинает работать с подростками, которым грозит исключение из школы, и помогает им найти общий язык через танец.",
+        "en": "A ballroom dance instructor works with troubled students facing suspension and helps them connect with one another through dance."
+      },
+      "editorialNote": {
+        "ru": "Вдохновляющий фильм о наставничестве, дисциплине и том, как танец может открыть новые возможности.",
+        "en": "An uplifting film about mentorship, discipline, and how dance can open up new possibilities."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 58 мин",
+      "director": "Liz Friedlander",
+      "posterUrl": "/dances/take-the-lead-2006.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "kochaj-i-tancz-2009",
+      "title": {
+        "original": "Kochaj i tańcz",
+        "ru": "Люби и танцуй"
+      },
+      "year": 2009,
+      "genres": [
+        "romance",
+        "comedy",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Молодая журналистка с чётким планом на будущее знакомится с танцором, который открывает ей мир страсти, музыки и неожиданных семейных открытий.",
+        "en": "A young journalist with a carefully planned future meets a dancer who introduces her to passion, music, and unexpected family revelations."
+      },
+      "editorialNote": {
+        "ru": "Польская романтическая комедия о том, как танец помогает выйти за пределы привычной жизни и услышать собственные желания.",
+        "en": "A Polish romantic comedy about how dance can lead someone beyond a carefully arranged life and closer to their own desires."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 3 мин",
+      "director": "Bruce Parramore",
+      "posterUrl": "/dances/kochaj-i-tancz-2009.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "shall-we-dance-2004",
+      "title": {
+        "original": "Shall We Dance?",
+        "ru": "Давайте потанцуем"
+      },
+      "year": 2004,
+      "genres": [
+        "romance",
+        "comedy",
+        "drama"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Успешный, но уставший от однообразия юрист записывается на уроки бальных танцев и постепенно открывает в своей жизни место для радости и перемен.",
+        "en": "A successful lawyer tired of routine secretly takes ballroom dance lessons and gradually makes room in his life for joy and change."
+      },
+      "editorialNote": {
+        "ru": "Тёплая история о личном обновлении, близости и удовольствии, которое можно найти в неожиданном увлечении.",
+        "en": "A warm story about personal renewal, intimacy, and the joy found in an unexpected passion."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 46 мин",
+      "director": "Peter Chelsom",
+      "posterUrl": "/dances/shall-we-dance-2004.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "honey-2003",
+      "title": {
+        "original": "Honey",
+        "ru": "Лапочка"
+      },
+      "year": 2003,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Молодая хореограф мечтает о большом прорыве, но, столкнувшись с эксплуатацией в музыкальной индустрии, решает сохранить свои принципы и помогать детям из района.",
+        "en": "A young choreographer dreams of a major breakthrough, but when the music industry tries to exploit her, she chooses her principles and her work with local kids."
+      },
+      "editorialNote": {
+        "ru": "История о хип-хоп-культуре, самостоятельности и стремлении использовать талант не только ради славы.",
+        "en": "A story of hip-hop culture, independence, and using talent for more than fame alone."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 34 мин",
+      "director": "Bille Woodruff",
+      "posterUrl": "/dances/honey-2003.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "burlesque-2010",
+      "title": {
+        "original": "Burlesque",
+        "ru": "Бурлеск"
+      },
+      "year": 2010,
+      "genres": [
+        "musical",
+        "drama",
+        "romance"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Девушка из маленького города приезжает в Лос-Анджелес и устраивается в бурлеск-клуб, где её голос, амбиции и сценический талант помогают ей найти своё место.",
+        "en": "A small-town woman arrives in Los Angeles and joins a burlesque club, where her voice, ambition, and stage presence help her find her place."
+      },
+      "editorialNote": {
+        "ru": "Яркое музыкальное зрелище с клубной эстетикой, сценическими номерами и историей о вере в себя.",
+        "en": "A glossy musical spectacle filled with club glamour, stage numbers, and a story about believing in yourself."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 59 мин",
+      "director": "Steven Antin",
+      "posterUrl": "/dances/burlesque-2010.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "dirty-dancing-1987",
+      "title": {
+        "original": "Dirty Dancing",
+        "ru": "Грязные танцы"
+      },
+      "year": 1987,
+      "genres": [
+        "romance",
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Во время летнего отдыха юная Фрэнсис, которую все зовут Бэби, сближается с танцором Джонни и открывает для себя любовь, независимость и силу танца.",
+        "en": "During a summer holiday, young Frances—known as Baby—grows close to dancer Johnny and discovers love, independence, and the power of dance."
+      },
+      "editorialNote": {
+        "ru": "Культовая романтическая драма, в которой танец становится языком свободы, взросления и взаимного доверия.",
+        "en": "An iconic romantic drama in which dance becomes a language of freedom, growing up, and mutual trust."
+      },
+      "quotes": {
+        "items": [
+          {
+            "original": "Nobody puts Baby in a corner.",
+            "ru": "Никто не загоняет Бэби в угол.",
+            "character": "Johnny Castle"
+          }
+        ],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 40 мин",
+      "director": "Emile Ardolino",
+      "posterUrl": "/dances/dirty-dancing-1987.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "dirty-dancing-havana-nights-2004",
+      "title": {
+        "original": "Dirty Dancing: Havana Nights",
+        "ru": "Грязные танцы 2"
+      },
+      "year": 2004,
+      "genres": [
+        "romance",
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Американская школьница переезжает с семьёй на Кубу в конце 1950-х и знакомится с местным танцором, который открывает ей мир кубинского танца и меняет её жизнь.",
+        "en": "An American teenager moves with her family to Cuba in the late 1950s and meets a local dancer who introduces her to Cuban dance and changes her life."
+      },
+      "editorialNote": {
+        "ru": "Романтическая история с латиноамериканскими ритмами, культурными контрастами и танцем как способом самовыражения.",
+        "en": "A romantic story of Latin rhythms, cultural contrasts, and dance as a form of self-expression."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 26 мин",
+      "director": "Guy Ferland",
+      "posterUrl": "/dances/dirty-dancing-havana-nights-2004.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "you-got-served-2004",
+      "title": {
+        "original": "You Got Served",
+        "ru": "Танцы улиц"
+      },
+      "year": 2004,
+      "genres": [
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Две команды уличных танцоров соревнуются за признание и деньги, но дружба и доверие оказываются под угрозой из-за соперничества и предательства.",
+        "en": "Two street-dance crews compete for respect and prize money, but friendship and trust are threatened by rivalry and betrayal."
+      },
+      "editorialNote": {
+        "ru": "Фильм о хип-хоп-баттлах начала 2000-х, уличной культуре и цене командной преданности.",
+        "en": "A snapshot of early-2000s hip-hop battles and street culture, exploring the cost of loyalty to a crew."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 35 мин",
+      "director": "Chris Stokes",
+      "posterUrl": "/dances/you-got-served-2004.jpeg",
+      "ratings": 5
+      
+    },
+    {
+      "id": "streetdance-3d-2010",
+      "title": {
+        "original": "StreetDance 3D",
+        "ru": "Уличные танцы"
+      },
+      "year": 2010,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "После ухода нескольких участников лидер уличной танцевальной команды вынуждена объединиться с учениками балетной школы, чтобы подготовиться к важному чемпионату.",
+        "en": "After several crew members leave, a street-dance team leader must join forces with ballet students to prepare for a major championship."
+      },
+      "editorialNote": {
+        "ru": "Британская история о сотрудничестве разных танцевальных стилей и о том, как компромисс может усилить команду.",
+        "en": "A British dance story about combining contrasting styles and discovering how compromise can make a team stronger."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 38 мин",
+      "director": "Max Giwa; Dania Pasquini",
+      "posterUrl": "/dances/streetdance-3d-2010.jpeg",
+      "ratings": 5
+      
+    },
+    {
+      "id": "showgirls-1995",
+      "title": {
+        "original": "Showgirls",
+        "ru": "Шоугёлз"
+      },
+      "year": 1995,
+      "genres": [
+        "drama"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Амбициозная молодая танцовщица приезжает в Лас-Вегас, чтобы пробиться в мир больших сценических шоу, где успех соседствует с жестокой конкуренцией и манипуляциями.",
+        "en": "An ambitious young dancer arrives in Las Vegas to break into major stage shows, where success comes with ruthless competition and manipulation."
+      },
+      "editorialNote": {
+        "ru": "Провокационная драма о цене амбиций и тёмной стороне индустрии развлечений; фильм рассчитан на взрослую аудиторию.",
+        "en": "A provocative drama about the price of ambition and the darker side of show business, intended for an adult audience."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 11 мин",
+      "director": "Paul Verhoeven",
+      "posterUrl": "/dances/showgirls-1995.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "coyote-ugly-2000",
+      "title": {
+        "original": "Coyote Ugly",
+        "ru": "Бар «Гадкий койот»"
+      },
+      "year": 2000,
+      "genres": [
+        "romance",
+        "comedy",
+        "drama",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Молодая автор песен переезжает в Нью-Йорк и устраивается в шумный бар, где танцы на стойке, яркие характеры и ночная жизнь помогают ей преодолеть страх сцены.",
+        "en": "A young songwriter moves to New York and takes a job at a lively bar, where dancing on the counter, bold personalities, and nightlife help her overcome stage fright."
+      },
+      "editorialNote": {
+        "ru": "Зажигательная история о самостоятельности, дружбе и поиске смелости заявить о своём таланте.",
+        "en": "An upbeat story about independence, friendship, and finding the courage to share one's talent."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 40 мин",
+      "director": "David McNally",
+      "posterUrl": "/dances/coyote-ugly-2000.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "step-up-2-the-streets-2008",
+      "title": {
+        "original": "Step Up 2: The Streets",
+        "ru": "Шаг вперёд 2: Улицы"
+      },
+      "year": 2008,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Уличная танцовщица поступает в престижную школу искусств и объединяется с новым другом, чтобы собрать команду и выступить на подпольном танцевальном соревновании.",
+        "en": "A street dancer enters a prestigious arts school and teams up with a new friend to build a crew and compete in an underground dance contest."
+      },
+      "editorialNote": {
+        "ru": "Продолжение делает акцент на уличных стилях, командной хореографии и поиске собственного места в новой среде.",
+        "en": "The sequel emphasizes street styles, group choreography, and finding one's place in a new environment."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 38 мин",
+      "director": "Jon M. Chu",
+      "posterUrl": "/dances/step-up-2-the-streets-2008.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "step-up-3d-2010",
+      "title": {
+        "original": "Step Up 3D",
+        "ru": "Шаг вперёд 3D"
+      },
+      "year": 2010,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Студент Нью-Йоркского университета присоединяется к танцевальной команде, которая готовится к крупному соревнованию и рискует потерять место для репетиций.",
+        "en": "A New York University student joins a dance crew preparing for a major competition while fighting to keep their rehearsal space."
+      },
+      "editorialNote": {
+        "ru": "Зрелищная часть серии, построенная вокруг масштабных командных номеров и трёхмерной постановки танца.",
+        "en": "A spectacle-driven entry in the series, built around large crew performances and 3D dance staging."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 47 мин",
+      "director": "Jon M. Chu",
+      "posterUrl": "/dances/step-up-3d-2010.jpeg",
+      "ratings": 5
+    },
+    {
+      "id": "step-up-revolution-2012",
+      "title": {
+        "original": "Step Up Revolution",
+        "ru": "Шаг вперёд 4"
+      },
+      "year": 2012,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Танцевальная команда в Майами использует постановочные флешмобы, чтобы привлечь внимание к своему району, но сталкивается с угрозой его перестройки.",
+        "en": "A Miami dance crew stages elaborate flash mobs to draw attention to its neighborhood, but faces the threat of redevelopment."
+      },
+      "editorialNote": {
+        "ru": "Фильм сочетает танцевальные постановки с темой городской идентичности и защиты места, которое команда считает домом.",
+        "en": "The film combines dance set pieces with questions of urban identity and protecting a place the crew calls home."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 39 мин",
+      "director": "Scott Speer",
+      "posterUrl": "/dances/step-up-revolution-2012.jpeg",
+      "ratings": 4
+    },
+    {
+      "id": "step-up-all-in-2014",
+      "title": {
+        "original": "Step Up: All In",
+        "ru": "Шаг вперёд: Всё или ничего"
+      },
+      "year": 2014,
+      "genres": [
+        "drama",
+        "romance",
+        "music"
+      ],
+      "moods": [
+        "dance"
+      ],
+      "description": {
+        "ru": "Танцоры из предыдущих частей собираются в Лас-Вегасе, чтобы принять участие в масштабном соревновании и получить шанс на профессиональное будущее.",
+        "en": "Dancers from earlier films reunite in Las Vegas for a high-stakes competition that could give them a professional future."
+      },
+      "editorialNote": {
+        "ru": "Объединение знакомых героев и стилей превращает фильм в праздничный танцевальный финал основной серии.",
+        "en": "Bringing familiar characters and styles together, the film plays like a celebratory dance finale for the main series."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 52 мин",
+      "director": "Trish Sie",
+      "posterUrl": "/dances/step-up-all-in-2014.jpeg",
+      "ratings": 4
+    }
+  ]
+}

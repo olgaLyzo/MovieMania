@@ -1,0 +1,106 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.footer {
+  margin-top: $space-6;
+  padding: $space-6 $space-4 calc(#{$space-5} + env(safe-area-inset-bottom, 0px));
+  background: var(--color-primary-dark);
+  color: $purple-200;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1.4fr auto;
+  align-items: start;
+  gap: $space-6;
+  max-width: $content-max-width;
+  margin: 0 auto;
+
+  @include below($bp-md) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.logo {
+  @include font-display;
+  margin: 0;
+  color: $white;
+  font-size: 26px;
+}
+
+.accent {
+  color: var(--color-accent);
+}
+
+.heading {
+  margin: 0 0 10px;
+  color: $white;
+  font-size: 15px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  list-style: none;
+
+  a {
+    color: $purple-200;
+    text-decoration: none;
+    @include focus-ring($amber-300);
+
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+}
+
+// Значок, двоеточие и сам контакт в одну строку
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: $white;
+
+  a {
+    color: $white;
+  }
+}
+
+.icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: var(--color-accent);
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+// Круглая янтарная кнопка «Наверх»
+.up {
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 700;
+  @include button-3d($radius: 50%);
+}
+
+// Узкая полоса мелким шрифтом
+.legal {
+  max-width: $content-max-width;
+  margin: 14px auto 0;
+  padding-top: $space-2;
+  border-top: 1px solid rgba(175, 169, 236, 0.3);
+  color: $purple-300;
+  font-size: 11px;
+  line-height: 1.5;
+  text-align: center;
+}

@@ -1,0 +1,40 @@
+// ============================================================
+// Тема сайта: смысловые цвета как CSS-переменные.
+// Компоненты берут var(--color-...) и не знают, какая сейчас тема.
+// Тёмная тема включается автоматически по настройке системы.
+// ============================================================
+@use "../abstracts/tokens" as *;
+
+:root {
+  color-scheme: light dark;
+
+  --color-bg: #{$purple-050}; // фон страницы
+  --color-surface: #{$purple-050}; // фон полей, таблеток, колёсика
+  --color-card: #{$white}; // карточки, панель, модальное окно
+  --color-border: #{$purple-200}; // рамки; «пустые» звёзды
+  --color-ledge: #{$purple-300}; // нижнее «ребро» карточек и панели
+  --color-text: #{$purple-900}; // основной текст и заголовки
+  --color-muted: #{$purple-400}; // второстепенный текст
+  --color-ink: #{$ink-600}; // длинные описания
+  --color-primary: #{$purple-500}; // шапка, выбранные фильтры
+  --color-primary-dark: #{$purple-700}; // меню, футер, нижние рёбра
+  --color-accent: #{$amber-300}; // янтарные кнопки и акценты
+  --color-accent-edge: #{$amber-600};
+  --color-accent-text: #{$amber-900};
+  --color-star: #{$amber-500}; // заполненные звёзды
+  --color-focus: #{$purple-500}; // рамка фокуса с клавиатуры
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: #{$night-900};
+    --color-surface: #{$night-800};
+    --color-card: #{$night-800};
+    --color-border: #{$purple-600};
+    --color-ledge: #{$purple-500};
+    --color-text: #{$purple-050};
+    --color-muted: #{$purple-300};
+    --color-ink: #{$purple-200};
+    --color-focus: #{$amber-300};
+  }
+}

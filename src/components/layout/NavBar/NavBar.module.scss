@@ -1,0 +1,56 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+// Меню «прилипает» к верху экрана при прокрутке.
+.nav {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: $z-nav;
+  display: flex;
+  gap: 6px;
+  padding: 7px $space-4;
+  background: var(--color-primary-dark);
+  box-shadow: 0 4px 10px rgba(20, 8, 50, 0.35);
+}
+
+// Область под системной панелью телефона закрашиваем цветом меню.
+:global(body)::before {
+  content: "";
+  position: fixed;
+  inset: 0 0 auto;
+  z-index: $z-status-bar;
+  height: env(safe-area-inset-top, 0px);
+  background: var(--color-primary-dark);
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: $space-2 $space-4;
+  border-radius: $radius-md;
+  color: $purple-200;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  @include focus-ring($amber-300);
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: $white;
+  }
+
+  // Открытая страница: янтарная вкладка. Стоит после :hover,
+  // чтобы при наведении её цвет не менялся.
+  &.active {
+    background: var(--color-accent);
+    color: var(--color-accent-text);
+    @include ledge(var(--color-accent-edge), $ledge-sm);
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+}

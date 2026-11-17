@@ -1,0 +1,32 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+.stars {
+  display: flex;
+  gap: 2px;
+}
+
+.star {
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--color-border); // «пустая» звезда
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  @include focus-ring;
+}
+
+.filled {
+  color: var(--color-star);
+}
+
+.hint {
+  margin: 6px 0 0;
+  color: var(--color-muted);
+  font-size: 12px;
+}
+
+.active {
+  font-weight: 600;
+}

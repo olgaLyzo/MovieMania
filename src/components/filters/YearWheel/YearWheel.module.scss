@@ -1,0 +1,109 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+// Должно совпадать с ITEM_HEIGHT в YearWheel.tsx
+$item-height: 32px;
+$visible-items: 3;
+
+.wheel {
+  --wheel-bg: var(--color-surface);
+  position: relative;
+  height: $item-height * $visible-items;
+  border: 1px solid var(--color-border);
+  border-radius: $radius-md;
+  background: var(--wheel-bg);
+  overflow: hidden;
+  transition: background 0.15s;
+
+  // Год выбран: колёсико заливается фиолетовым
+  &.active {
+    --wheel-bg: var(--color-primary);
+    border-color: var(--color-primary-dark);
+    @include ledge(var(--color-primary-dark), $ledge-sm);
+  }
+}
+
+.list {
+  height: 100%;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  // Рамка фокуса внутри (снаружи её обрежет overflow: hidden)
+  &:focus-visible {
+    outline: 3px solid var(--color-focus);
+    outline-offset: -3px;
+  }
+}
+
+// Пустые строки сверху и снизу позволяют докрутить первый и последний пункт до центра
+.spacer {
+  height: $item-height;
+}
+
+.item {
+  height: $item-height;
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: $item-height;
+  text-align: center;
+  scroll-snap-align: center;
+  cursor: pointer;
+
+  &.selected {
+    color: var(--color-text);
+    font-size: 17px;
+    font-weight: 600;
+  }
+}
+
+.active .item {
+  color: $purple-300;
+
+  &.selected {
+    color: $white;
+  }
+}
+
+// Рамка вокруг выбранной строки
+.band {
+  position: absolute;
+  top: $item-height;
+  right: 4px;
+  left: 4px;
+  height: $item-height;
+  border-block: 1.5px solid var(--color-primary);
+  border-radius: $radius-sm;
+  background: rgba(83, 74, 183, 0.1);
+  pointer-events: none;
+}
+
+.active .band {
+  border-color: var(--color-accent);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+// Затухание сверху и снизу
+.fadeTop,
+.fadeBottom {
+  position: absolute;
+  right: 0;
+  left: 0;
+  height: 26px;
+  pointer-events: none;
+}
+
+.fadeTop {
+  top: 0;
+  background: linear-gradient(var(--wheel-bg), transparent);
+}
+
+.fadeBottom {
+  bottom: 0;
+  background: linear-gradient(transparent, var(--wheel-bg));
+}

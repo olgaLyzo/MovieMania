@@ -1,0 +1,20 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+// Отступы можно поменять снаружи через переменную --button-padding.
+.primary {
+  padding: var(--button-padding, 11px 26px);
+  font-size: 15px;
+  @include button-3d;
+}
+
+.ghost {
+  padding: 10px $space-3;
+  border: 1px solid var(--color-ledge);
+  border-radius: $radius-md;
+  background: transparent;
+  color: var(--color-text);
+  font-size: 13px;
+  cursor: pointer;
+  @include focus-ring;
+}

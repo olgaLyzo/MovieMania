@@ -1,0 +1,41 @@
+// ============================================================
+// Минимальный сброс: убираем неожиданные отличия браузеров.
+// Ничего «дизайнерского» здесь нет.
+// ============================================================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  // Отступ при прокрутке к якорям (учитывает «чёлку» телефона)
+  scroll-padding-top: env(safe-area-inset-top, 0px);
+}
+
+body {
+  margin: 0;
+  // Контент не уходит под системные панели телефона
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+// Уважаем настройку «уменьшить анимацию» в системе (доступность)
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

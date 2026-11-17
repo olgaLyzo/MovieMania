@@ -1,0 +1,29 @@
+// Постер 4:5, а не вытянутый 2:3: карточки получаются компактными.
+.poster {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  overflow: hidden;
+  aspect-ratio: 4 / 5;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.icon {
+  font-size: 34px;
+  line-height: 1;
+}
+
+// Картинка закрывает заглушку целиком
+.image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

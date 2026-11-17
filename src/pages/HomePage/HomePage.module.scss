@@ -1,0 +1,30 @@
+@use "../../styles/abstracts/tokens" as *;
+@use "../../styles/abstracts/mixins" as *;
+
+.page {
+  max-width: $content-max-width;
+  margin: 0 auto;
+  padding: $space-4;
+}
+
+// Панель слева, результаты справа; на узком экране друг под другом
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: $space-4;
+
+  @include below($bp-md) {
+    flex-direction: column;
+  }
+}
+
+.results {
+  flex: 1;
+  min-width: 0;
+}
+
+.empty {
+  margin: $space-6 0;
+  color: var(--color-muted);
+  text-align: center;
+}

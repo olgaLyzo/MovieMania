@@ -1,0 +1,19 @@
+@use "../../../styles/abstracts/tokens" as *;
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: $space-2;
+  padding: 22px 0 10px;
+}
+
+.caption {
+  margin: 0;
+  color: var(--color-muted);
+  font-size: 13px;
+}
+
+.button {
+  --button-padding: 12px 34px;
+}

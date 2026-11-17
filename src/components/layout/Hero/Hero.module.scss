@@ -1,0 +1,188 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+// Цвета, нужные только шапке: в общие токены не выносим.
+$film-black: #14101f;
+$film-hole: #d9d6f2;
+$amber-deep: #92560c;
+$title-shadow: rgba(20, 8, 50, 0.45);
+
+// Шар: радиальный градиент + тень снаружи и внутри дают объём.
+@mixin sphere($gradient, $shadow) {
+  border-radius: 50%;
+  background: $gradient;
+  box-shadow: $shadow;
+}
+
+@mixin sphere-gold {
+  @include sphere(
+    radial-gradient(circle at 32% 28%, #fff3d1, #fac775 30%, #e09a2a 60%, #92560c),
+    0 6px 10px rgba(30, 10, 60, 0.4)
+  );
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+  min-height: 340px;
+  // По бокам оставляем место под иллюстрации
+  padding: 84px 170px 80px;
+  background: var(--color-primary);
+  text-align: center;
+
+  // На узких экранах иллюстрации прячем, шапка становится компактной
+  @include below($bp-md) {
+    min-height: 0;
+    padding: 60px $space-4 54px;
+  }
+}
+
+// --- Киноплёнка сверху и снизу ---------------------------------
+.film {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 22px;
+  background: $film-black;
+}
+
+.filmTop {
+  top: 0;
+}
+
+.filmBottom {
+  bottom: 0;
+}
+
+.filmHoles {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 6px;
+  height: 10px;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent 0 8px,
+    $film-hole 8px 18px
+  );
+}
+
+// --- 3D-шары ---------------------------------------------------
+.sphere {
+  position: absolute;
+}
+
+.pink {
+  top: 160px;
+  right: -40px;
+  width: 104px;
+  height: 104px;
+  @include sphere(
+    radial-gradient(circle at 32% 28%, #ffd0e0, #ed7fa6 28%, #d4537e 55%, #8f2a52),
+    (0 10px 18px rgba(30, 10, 60, 0.45), inset -6px -8px 14px rgba(70, 10, 40, 0.35))
+  );
+}
+
+.green {
+  top: 210px;
+  left: -40px;
+  width: 100px;
+  height: 100px;
+  @include sphere(
+    radial-gradient(circle at 32% 28%, #c6f5e3, #4fd0a3 28%, #1d9e75 55%, #0b5a43),
+    (0 10px 18px rgba(30, 10, 60, 0.45), inset -6px -8px 14px rgba(0, 50, 35, 0.35))
+  );
+}
+
+.goldLeft {
+  top: 50px;
+  left: 160px;
+  width: 16px;
+  height: 16px;
+  @include sphere-gold;
+}
+
+.goldRight {
+  top: 54px;
+  right: 160px;
+  width: 16px;
+  height: 16px;
+  @include sphere-gold;
+}
+
+// --- Иллюстрации (SVG из src/assets/hero) ----------------------
+.art {
+  position: absolute;
+  // Мягкая тень под картинкой усиливает ощущение объёма
+  filter: drop-shadow(0 10px 8px rgba(20, 8, 50, 0.55));
+
+  @include below($bp-md) {
+    display: none;
+  }
+}
+
+.clapperboard {
+  top: 34px;
+  left: 10px;
+  width: 164px;
+  transform: rotate(-5deg);
+}
+
+.reel {
+  bottom: 28px;
+  left: 60px;
+  width: 128px;
+}
+
+.popcorn {
+  top: 26px;
+  right: 12px;
+  width: 138px;
+  transform: rotate(5deg);
+}
+
+.ticket {
+  right: -8px;
+  bottom: 10px;
+  width: 216px;
+}
+
+// --- Заголовок и подзаголовок ----------------------------------
+.title {
+  @include font-display;
+  position: relative;
+  margin: 0;
+  font-size: clamp(34px, 5vw, 54px);
+  line-height: 1.08;
+  text-shadow:
+    0 3px 0 $purple-700,
+    0 6px 10px $title-shadow;
+}
+
+.titleLink {
+  color: $white;
+  text-decoration: none;
+  @include focus-ring($amber-300);
+}
+
+// Каждая часть заголовка на своей строке
+.line {
+  display: block;
+}
+
+.accent {
+  display: block;
+  color: var(--color-accent);
+  text-shadow:
+    0 3px 0 $amber-deep,
+    0 6px 10px $title-shadow;
+}
+
+// Шапка всегда фиолетовая, поэтому цвет подзаголовка фиксированный
+// (из токена), а не из темы: так он читается и в тёмной теме.
+.tagline {
+  position: relative;
+  margin: 12px 0 0;
+  font-size: 15px;
+  color: $purple-200;
+}

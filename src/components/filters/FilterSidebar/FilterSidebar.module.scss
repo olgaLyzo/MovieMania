@@ -1,0 +1,105 @@
+@use "../../../styles/abstracts/tokens" as *;
+@use "../../../styles/abstracts/mixins" as *;
+
+// Панель «прилипает» при прокрутке (под меню высотой ~52px).
+.sidebar {
+  position: sticky;
+  top: 64px;
+  flex: none;
+  width: $sidebar-width;
+  max-height: calc(100vh - 76px);
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+  border-radius: $radius-xl;
+  background: var(--color-card);
+  @include ledge(var(--color-ledge), $ledge-lg);
+
+  @include below($bp-md) {
+    position: static;
+    width: 100%;
+    max-height: none;
+  }
+}
+
+.search {
+  padding: $space-3 14px;
+  border-bottom: 1px solid var(--color-surface);
+}
+
+.searchInput {
+  width: 100%;
+  padding: 9px $space-3;
+  border: 1px solid var(--color-border);
+  border-radius: $radius-md;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 14px;
+  outline: none;
+
+  &:focus-visible {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(83, 74, 183, 0.25);
+  }
+}
+
+// --- Сворачиваемые разделы (<details>) ----------------------------
+.section {
+  border-bottom: 1px solid var(--color-surface);
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+
+  // Закрытый раздел: стрелка повёрнута
+  &:not([open]) .summary::after {
+    transform: rotate(-90deg);
+  }
+}
+
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 14px;
+  color: var(--color-text);
+  font-size: 14px;
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+  @include focus-ring;
+
+  // Убираем стандартный треугольник браузера и рисуем свою стрелку
+  &::-webkit-details-marker {
+    display: none;
+  }
+
+  &::after {
+    content: "\25BE";
+    transition: transform 0.15s;
+  }
+
+  &:hover {
+    background: var(--color-surface);
+  }
+}
+
+.body {
+  padding: 2px 14px 14px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.actions {
+  display: flex;
+  gap: $space-2;
+  padding: $space-3 14px;
+  background: var(--color-surface);
+}
+
+.find {
+  flex: 1;
+}
