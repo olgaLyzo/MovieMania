@@ -93,16 +93,23 @@
 
 // Кнопка цитат: янтарная; когда цитаты раскрыты, становится фиолетовой
 .quotesButton {
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   margin: 10px $space-4 $space-4;
   padding: 11px 14px;
   font-size: 14px;
   @include button-3d;
+  color: var(--color-primary);
 
   &::after {
     content: "\25BE";
+    position: absolute;
+    left: calc(50% + 82px);
+    top: 11px;
+    font-size: 22px;
+    line-height: 14px;
     transition: transform 0.15s;
   }
 
@@ -112,7 +119,12 @@
     @include ledge(var(--color-primary-dark));
 
     &::after {
+      left: calc(50% + 82px);
+      top: 16px;
+      font-size: 20px;
+      line-height: 14px;
       transform: rotate(180deg);
+      transform-origin: center;
     }
   }
 }
@@ -127,6 +139,25 @@
 
   p {
     margin: 0;
+  }
+}
+
+.watchButton {
+  display: block;
+  margin: 0 $space-4 $space-4;
+  padding: 11px 14px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  @include button-3d(
+    $bg: var(--color-primary),
+    $color: $white,
+    $edge: var(--color-primary-dark),
+    $radius: $radius-md
+  );
+
+  &:hover {
+    filter: brightness(1.05);
   }
 }
 

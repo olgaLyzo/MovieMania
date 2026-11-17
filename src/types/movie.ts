@@ -31,6 +31,7 @@ export type Movie = {
   runtimeMinutes: string;
   director: string;
   posterUrl: string | null;
+  filmUrl: string | null;
   ratings: number; // 1–5 звёзд
 };
 

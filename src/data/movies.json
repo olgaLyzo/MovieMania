@@ -41,8 +41,9 @@
       },
       "runtimeMinutes": "1 ч 54 мин",
       "director": "Sylvain White",
-      "posterUrl": "/dances/stomp-the-yard-2007.jpg",
-      "ratings": 5
+      "posterUrl": "posters/dances/stomp-the-yard-2007.jpg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/24876-bratstvo-tanca.html"
     },
     {
       "id": "step-up-2006",
@@ -76,9 +77,9 @@
       },
       "runtimeMinutes": "1 ч 44 мин",
       "director": "Anne Fletcher",
-      "posterUrl": "/dances/step-up-2006.jpeg",
-      "ratings": 5
-      
+      "posterUrl": "posters/dances/step-up-2006.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "take-the-lead-2006",
@@ -111,8 +112,9 @@
       },
       "runtimeMinutes": "1 ч 58 мин",
       "director": "Liz Friedlander",
-      "posterUrl": "/dances/take-the-lead-2006.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/take-the-lead-2006.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "kochaj-i-tancz-2009",
@@ -146,8 +148,9 @@
       },
       "runtimeMinutes": "2 ч 3 мин",
       "director": "Bruce Parramore",
-      "posterUrl": "/dances/kochaj-i-tancz-2009.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/kochaj-i-tancz-2009.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "shall-we-dance-2004",
@@ -181,8 +184,9 @@
       },
       "runtimeMinutes": "1 ч 46 мин",
       "director": "Peter Chelsom",
-      "posterUrl": "/dances/shall-we-dance-2004.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/shall-we-dance-2004.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "honey-2003",
@@ -216,8 +220,9 @@
       },
       "runtimeMinutes": "1 ч 34 мин",
       "director": "Bille Woodruff",
-      "posterUrl": "/dances/honey-2003.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/honey-2003.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "burlesque-2010",
@@ -251,8 +256,9 @@
       },
       "runtimeMinutes": "1 ч 59 мин",
       "director": "Steven Antin",
-      "posterUrl": "/dances/burlesque-2010.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/burlesque-2010.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "dirty-dancing-1987",
@@ -292,8 +298,9 @@
       },
       "runtimeMinutes": "1 ч 40 мин",
       "director": "Emile Ardolino",
-      "posterUrl": "/dances/dirty-dancing-1987.jpeg",
-      "ratings": 5
+      "posterUrl": "/posters/dances/dirty-dancing-1987.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "dirty-dancing-havana-nights-2004",
@@ -327,8 +334,9 @@
       },
       "runtimeMinutes": "1 ч 26 мин",
       "director": "Guy Ferland",
-      "posterUrl": "/dances/dirty-dancing-havana-nights-2004.jpeg",
-      "ratings": 5
+      "posterUrl": "/posters/dances/dirty-dancing-hawana-nights-2004.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "you-got-served-2004",
@@ -361,12 +369,12 @@
       },
       "runtimeMinutes": "1 ч 35 мин",
       "director": "Chris Stokes",
-      "posterUrl": "/dances/you-got-served-2004.jpeg",
-      "ratings": 5
-      
+      "posterUrl": "posters/dances/you-got-served-2004.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
-      "id": "streetdance-3d-2010",
+      "id": "streetdance-3D-2010",
       "title": {
         "original": "StreetDance 3D",
         "ru": "Уличные танцы"
@@ -397,9 +405,9 @@
       },
       "runtimeMinutes": "1 ч 38 мин",
       "director": "Max Giwa; Dania Pasquini",
-      "posterUrl": "/dances/streetdance-3d-2010.jpeg",
-      "ratings": 5
-      
+      "posterUrl": "/posters/dances/streetdance-3D-2010.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "showgirls-1995",
@@ -431,8 +439,9 @@
       },
       "runtimeMinutes": "2 ч 11 мин",
       "director": "Paul Verhoeven",
-      "posterUrl": "/dances/showgirls-1995.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/showgirls-1995.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "coyote-ugly-2000",
@@ -467,8 +476,9 @@
       },
       "runtimeMinutes": "1 ч 40 мин",
       "director": "David McNally",
-      "posterUrl": "/dances/coyote-ugly-2000.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/coyote-ugly-2000.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "step-up-2-the-streets-2008",
@@ -502,8 +512,9 @@
       },
       "runtimeMinutes": "1 ч 38 мин",
       "director": "Jon M. Chu",
-      "posterUrl": "/dances/step-up-2-the-streets-2008.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/step-up-2-the-streets-2008.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "step-up-3d-2010",
@@ -537,8 +548,9 @@
       },
       "runtimeMinutes": "1 ч 47 мин",
       "director": "Jon M. Chu",
-      "posterUrl": "/dances/step-up-3d-2010.jpeg",
-      "ratings": 5
+      "posterUrl": "posters/dances/step-up-3d-2010.jpeg",
+      "ratings": 5,
+      "filmUrl": null
     },
     {
       "id": "step-up-revolution-2012",
@@ -572,8 +584,9 @@
       },
       "runtimeMinutes": "1 ч 39 мин",
       "director": "Scott Speer",
-      "posterUrl": "/dances/step-up-revolution-2012.jpeg",
-      "ratings": 4
+      "posterUrl": "posters/dances/step-up-revolution-2012.jpeg",
+      "ratings": 4,
+      "filmUrl": null
     },
     {
       "id": "step-up-all-in-2014",
@@ -607,8 +620,9 @@
       },
       "runtimeMinutes": "1 ч 52 мин",
       "director": "Trish Sie",
-      "posterUrl": "/dances/step-up-all-in-2014.jpeg",
-      "ratings": 4
+      "posterUrl": "posters/dances/step-up-all-in-2014.jpeg",
+      "ratings": 4,
+      "filmUrl": null
     }
   ]
 }

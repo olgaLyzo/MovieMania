@@ -27,6 +27,7 @@ export function MovieModal({ movie, onClose }: MovieModalProps) {
   const meta = [movie.year, movie.genres.map(genreLabel).join(", "), movie.title.original];
 
   return (
+    <>
     <dialog
       ref={dialogRef}
       className={styles.dialog}
@@ -90,7 +91,23 @@ export function MovieModal({ movie, onClose }: MovieModalProps) {
             )}
           </div>
         )}
+
+        {movie.filmUrl ? (
+          <a
+            className={styles.watchButton}
+            href={movie.filmUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Смотреть фильм
+          </a>
+        ) : (
+          <button type="button" className={styles.watchButton} disabled>
+            Смотреть фильм
+          </button>
+        )}
       </div>
     </dialog>
+    </>
   );
 }
