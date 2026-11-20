@@ -35,6 +35,7 @@ export const ASSOCIATION_OPTIONS: readonly FilterOption[] = [
   { value: "female", label: "Женские" },
   { value: "male", label: "Мужские" },
   { value: "kids", label: "Детские" },
+  { value: "romantic", label: "Романтические" },
 ];
 
 // Верхняя граница года считается от текущей даты, чтобы не устаревать.

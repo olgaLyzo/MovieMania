@@ -30,8 +30,7 @@ type YearWheelProps = {
   onChange: (year: number | null) => void;
 };
 
-// Прокручиваемое колёсико выбора года (как выбор года рождения в календаре).
-// Выбран тот год, что находится в рамке по центру. Работает и с клавиатуры (↑ ↓).
+// Колёсико выбора года: год выбирается кликом или клавишами ↑ ↓.
 export function YearWheel({ value, onChange }: YearWheelProps) {
   const listRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<number | undefined>(undefined);
@@ -49,7 +48,7 @@ export function YearWheel({ value, onChange }: YearWheelProps) {
   // Не оставляем таймер после удаления компонента.
   useEffect(() => () => window.clearTimeout(timerRef.current), []);
 
-  // Ждём, пока прокрутка остановится, и только тогда сообщаем выбранный год.
+  // При прокрутке списка центрируем ближайший год и обновляем фильтр.
   function handleScroll() {
     window.clearTimeout(timerRef.current);
     timerRef.current = window.setTimeout(() => {

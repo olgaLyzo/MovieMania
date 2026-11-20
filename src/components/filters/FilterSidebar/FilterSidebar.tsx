@@ -41,10 +41,14 @@ export function FilterSidebar({ filters, dispatch, onFind }: FilterSidebarProps)
   return (
     <aside className={styles.sidebar} aria-label="Фильтры">
       <div className={styles.search}>
+        <svg className={styles.searchIcon} viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.8" />
+          <path d="m16 16 5 5" />
+        </svg>
         <input
           type="search"
           className={styles.searchInput}
-          placeholder="Название фильма"
+          placeholder="Поиск фильма"
           aria-label="Поиск по названию"
           value={filters.query}
           onChange={(event) => dispatch({ type: "setQuery", query: event.target.value })}

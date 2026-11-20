@@ -1,13 +1,13 @@
 {
-  "collectionId": "dance-movies",
+  "collectionId": "movie-catalog",
   "collectionTitle": {
-    "ru": "Фильмы о танцах",
-    "en": "Dance Movies"
+    "ru": "Каталог фильмов",
+    "en": "Movie Catalog"
   },
   "schemaVersion": 1,
   "notes": {
-    "ru": "Все фильмы имеют moods=[dance]. Все записи draft. posterUrl=null означает, что прямой URL изображения ещё нужно проверить и добавить. quotes.status=pending_verification означает, что подборка цитат ещё не проверена; notFoundMessage используется только после проверки, если цитат не найдено.",
-    "en": "All films use moods=[dance]. All records are drafts. posterUrl=null means a direct image URL still needs verification. quotes.status=pending_verification means quotes have not yet been checked; use notFoundMessage only after checking and finding no notable quotes."
+    "ru": "Фильмы собраны в общем каталоге и могут находиться по жанру, настроению и другим фильтрам. posterUrl=null означает, что постер не указан. quotes.status=pending_verification означает, что цитаты ещё не проверены; notFoundMessage используется только после проверки, если примечательных цитат не найдено.",
+    "en": "Movies share a single catalog and can be found by genre, mood, and other filters. posterUrl=null means no poster is specified. quotes.status=pending_verification means quotes have not been verified; use notFoundMessage only after checking and finding no notable quotes."
   },
   "movies": [
     {
@@ -41,7 +41,7 @@
       },
       "runtimeMinutes": "1 ч 54 мин",
       "director": "Sylvain White",
-      "posterUrl": "posters/dances/stomp-the-yard-2007.jpg",
+      "posterUrl": "/posters/stomp-the-yard-2007.jpg",
       "ratings": 5,
       "filmUrl": "https://kinogo.online/filmy/24876-bratstvo-tanca.html"
     },
@@ -77,9 +77,9 @@
       },
       "runtimeMinutes": "1 ч 44 мин",
       "director": "Anne Fletcher",
-      "posterUrl": "posters/dances/step-up-2006.jpeg",
+      "posterUrl": "/posters/step-up-2006.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/16452-shag-vpered.html"
     },
     {
       "id": "take-the-lead-2006",
@@ -112,9 +112,9 @@
       },
       "runtimeMinutes": "1 ч 58 мин",
       "director": "Liz Friedlander",
-      "posterUrl": "posters/dances/take-the-lead-2006.jpeg",
+      "posterUrl": "/posters/take-the-lead-2006.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/13172-derzhi-ritm.html"
     },
     {
       "id": "kochaj-i-tancz-2009",
@@ -148,9 +148,9 @@
       },
       "runtimeMinutes": "2 ч 3 мин",
       "director": "Bruce Parramore",
-      "posterUrl": "posters/dances/kochaj-i-tancz-2009.jpeg",
+      "posterUrl": "/posters/kochaj-i-tancz-2009.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/11856-ljubi-i-tancuj.html"
     },
     {
       "id": "shall-we-dance-2004",
@@ -184,9 +184,9 @@
       },
       "runtimeMinutes": "1 ч 46 мин",
       "director": "Peter Chelsom",
-      "posterUrl": "posters/dances/shall-we-dance-2004.jpeg",
+      "posterUrl": "/posters/shall-we-dance-2004.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/14008-davajte-potancuem.html"
     },
     {
       "id": "honey-2003",
@@ -220,9 +220,9 @@
       },
       "runtimeMinutes": "1 ч 34 мин",
       "director": "Bille Woodruff",
-      "posterUrl": "posters/dances/honey-2003.jpeg",
+      "posterUrl": "/posters/honey-2003.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/17573-lapochka.html"
     },
     {
       "id": "burlesque-2010",
@@ -256,9 +256,9 @@
       },
       "runtimeMinutes": "1 ч 59 мин",
       "director": "Steven Antin",
-      "posterUrl": "posters/dances/burlesque-2010.jpeg",
+      "posterUrl": "/posters/burlesque-2010.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/21889-burlesk.html"
     },
     {
       "id": "dirty-dancing-1987",
@@ -298,9 +298,9 @@
       },
       "runtimeMinutes": "1 ч 40 мин",
       "director": "Emile Ardolino",
-      "posterUrl": "/posters/dances/dirty-dancing-1987.jpeg",
+      "posterUrl": "/posters/dirty-dancing-1987.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/928-grjaznye-tancy.html"
     },
     {
       "id": "dirty-dancing-havana-nights-2004",
@@ -334,9 +334,9 @@
       },
       "runtimeMinutes": "1 ч 26 мин",
       "director": "Guy Ferland",
-      "posterUrl": "/posters/dances/dirty-dancing-hawana-nights-2004.jpeg",
+      "posterUrl": "/posters/dirty-dancing-hawana-nights-2004.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/29202-grjaznye-tancy-2-gavanskie-nochi.html"
     },
     {
       "id": "you-got-served-2004",
@@ -369,9 +369,9 @@
       },
       "runtimeMinutes": "1 ч 35 мин",
       "director": "Chris Stokes",
-      "posterUrl": "posters/dances/you-got-served-2004.jpeg",
+      "posterUrl": "/posters/you-got-served-2004.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/1928-tancy-ulic.html"
     },
     {
       "id": "streetdance-3D-2010",
@@ -405,9 +405,9 @@
       },
       "runtimeMinutes": "1 ч 38 мин",
       "director": "Max Giwa; Dania Pasquini",
-      "posterUrl": "/posters/dances/streetdance-3D-2010.jpeg",
+      "posterUrl": "/posters/streetdance-3D-2010.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/4406-ulichnye-tancy-3d.html"
     },
     {
       "id": "showgirls-1995",
@@ -439,9 +439,9 @@
       },
       "runtimeMinutes": "2 ч 11 мин",
       "director": "Paul Verhoeven",
-      "posterUrl": "posters/dances/showgirls-1995.jpeg",
+      "posterUrl": "/posters/showgirls-1995.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/5329-shougelz.html"
     },
     {
       "id": "coyote-ugly-2000",
@@ -476,9 +476,9 @@
       },
       "runtimeMinutes": "1 ч 40 мин",
       "director": "David McNally",
-      "posterUrl": "posters/dances/coyote-ugly-2000.jpeg",
+      "posterUrl": "/posters/coyote-ugly-2000.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/8762-bar-gadkij-kojot.html"
     },
     {
       "id": "step-up-2-the-streets-2008",
@@ -512,9 +512,9 @@
       },
       "runtimeMinutes": "1 ч 38 мин",
       "director": "Jon M. Chu",
-      "posterUrl": "posters/dances/step-up-2-the-streets-2008.jpeg",
+      "posterUrl": "/posters/step-up-2-the-streets-2008.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/8467-shag-vpered-2-ulicy.html"
     },
     {
       "id": "step-up-3d-2010",
@@ -548,9 +548,9 @@
       },
       "runtimeMinutes": "1 ч 47 мин",
       "director": "Jon M. Chu",
-      "posterUrl": "posters/dances/step-up-3d-2010.jpeg",
+      "posterUrl": "/posters/step-up-3d-2010.jpeg",
       "ratings": 5,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/18538-shag-vpered-3d.html"
     },
     {
       "id": "step-up-revolution-2012",
@@ -584,9 +584,9 @@
       },
       "runtimeMinutes": "1 ч 39 мин",
       "director": "Scott Speer",
-      "posterUrl": "posters/dances/step-up-revolution-2012.jpeg",
+      "posterUrl": "/posters/step-up-revolution-2012.jpeg",
       "ratings": 4,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/4479-shag-vpered-4.html"
     },
     {
       "id": "step-up-all-in-2014",
@@ -620,9 +620,1170 @@
       },
       "runtimeMinutes": "1 ч 52 мин",
       "director": "Trish Sie",
-      "posterUrl": "posters/dances/step-up-all-in-2014.jpeg",
+      "posterUrl": "/posters/step-up-all-in-2014.jpeg",
       "ratings": 4,
-      "filmUrl": null
+      "filmUrl": "https://kinogo.online/filmy/2375-shag-vpered-vse-ili-nichego.html"
+    },
+    {
+      "id": "titanic-1997",
+      "title": {
+        "original": "Titanic",
+        "ru": "Титаник"
+      },
+      "year": 1997,
+      "genres": [
+        "drama",
+        "romance",
+        "adventure"
+      ],
+      "moods": [
+        "romantic",
+        "tragic",
+        "historical",
+        "epic",
+        "autumn",
+        "aesthetic",
+        "love"
+      ],
+      "description": {
+        "ru": "Во время первого рейса «Титаника» молодая аристократка и бедный художник знакомятся и влюбляются, а их история разворачивается на фоне трагедии кораблекрушения.",
+        "en": "During the Titanic's maiden voyage, a young aristocrat and a poor artist meet and fall in love as their story unfolds against the tragedy of the ship's sinking."
+      },
+      "editorialNote": {
+        "ru": "Масштабная историческая мелодрама о любви, выборе и памяти, соединяющая личную историю героев с известной морской катастрофой.",
+        "en": "An expansive historical romance about love, choice, and memory, pairing a personal story with a well-known maritime disaster."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "3 ч 14 мин",
+      "director": "James Cameron",
+      "posterUrl": "/posters/titanic-1997.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/28511-titanik.html"
+    },
+    {
+      "id": "amelie-2001",
+      "title": {
+        "original": "Le Fabuleux Destin d'Amélie Poulain",
+        "ru": "Амели"
+      },
+      "year": 2001,
+      "genres": [
+        "romance",
+        "comedy"
+      ],
+      "moods": [
+        "cozy",
+        "romantic",
+        "female",
+        "aesthetic",
+        "autumn",
+        "france"
+      ],
+      "description": {
+        "ru": "Застенчивая официантка Амели решает тайно помогать окружающим и постепенно меняет к лучшему жизни людей вокруг себя, одновременно приближаясь к собственному счастью.",
+        "en": "Shy waitress Amélie secretly sets out to improve the lives of those around her, gradually moving closer to finding happiness of her own."
+      },
+      "editorialNote": {
+        "ru": "Причудливая и душевная история о маленьких добрых поступках, воображении и смелости открыть сердце.",
+        "en": "A whimsical, heartfelt story about small acts of kindness, imagination, and the courage to open one's heart."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 2 мин",
+      "director": "Jean-Pierre Jeunet",
+      "posterUrl": "/posters/amelie-2001.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/20136-ameli.html"
+    },
+    {
+      "id": "coco-2017",
+      "title": {
+        "original": "Coco",
+        "ru": "Тайна Коко"
+      },
+      "year": 2017,
+      "genres": [
+        "animation",
+        "adventure",
+        "music"
+      ],
+      "moods": [
+        "family",
+        "kids",
+        "cozy",
+        "spain",
+        "summer",
+        "mexico",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Юный Мигель мечтает стать музыкантом и во время праздника Дня мёртвых попадает в необычный мир предков, где раскрывает историю своей семьи.",
+        "en": "Young Miguel dreams of becoming a musician and, during the Day of the Dead festivities, enters the world of his ancestors and uncovers his family's history."
+      },
+      "editorialNote": {
+        "ru": "Яркое семейное приключение о памяти, музыке и связи поколений.",
+        "en": "A colorful family adventure about memory, music, and the bonds between generations."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 45 мин",
+      "director": "Lee Unkrich",
+      "posterUrl": "/posters/coco-2017.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/multfilmy/31384-tajna-koko.html"
+    },
+    {
+      "id": "fight-club-1999",
+      "title": {
+        "original": "Fight Club",
+        "ru": "Бойцовский клуб"
+      },
+      "year": 1999,
+      "genres": [
+        "drama",
+        "thriller",
+        "action movie"
+      ],
+      "moods": [
+        "gritty",
+        "psychological",
+        "male",
+        "fight",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Страдающий бессонницей офисный работник знакомится с харизматичным Тайлером Дёрденом. Их недовольство повседневной жизнью приводит к созданию подпольного бойцовского клуба.",
+        "en": "An insomniac office worker meets the charismatic Tyler Durden. Their dissatisfaction with everyday life leads them to create an underground fight club."
+      },
+      "editorialNote": {
+        "ru": "Психологический триллер о кризисе идентичности, потребительстве и попытке вернуть контроль над собственной жизнью.",
+        "en": "A psychological thriller about identity, consumerism, and the attempt to regain control over one's life."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 19 мин",
+      "director": "David Fincher",
+      "posterUrl": "/posters/fight-club-1999.jpeg",
+      "ratings": 4,
+      "filmUrl": "https://kinogo.online/filmy/24134-bojcovskij-klub.html"
+    },
+    {
+      "id": "forrest-gump-1994",
+      "title": {
+        "original": "Forrest Gump",
+        "ru": "Форрест Гамп"
+      },
+      "year": 1994,
+      "genres": [
+        "drama",
+        "romance",
+        "comedy"
+      ],
+      "moods": [
+        "motivating",
+        "romantic",
+        "psychological",
+        "historical",
+        "male",
+        "summer"
+      ],
+      "description": {
+        "ru": "Форрест Гамп с добротой и искренностью проходит через важные события американской истории второй половины XX века, сохраняя верность близким и своим чувствам.",
+        "en": "With kindness and sincerity, Forrest Gump moves through defining events in late-20th-century American history while remaining devoted to the people he loves."
+      },
+      "editorialNote": {
+        "ru": "Трогательная история о стойкости, преданности и том, как простой взгляд на жизнь может привести к необыкновенному пути.",
+        "en": "A moving story about resilience, devotion, and how a straightforward outlook can lead to an extraordinary journey."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 22 мин",
+      "director": "Robert Zemeckis",
+      "posterUrl": "/posters/forrest-gump-1994.jpeg",
+      "ratings": 4,
+      "filmUrl": "https://kinogo.online/filmy/6277-forrest-gamp.html"
+    },
+    {
+      "id": "gladiator-2000",
+      "title": {
+        "original": "Gladiator",
+        "ru": "Гладиатор"
+      },
+      "year": 2000,
+      "genres": [
+        "action",
+        "drama",
+        "adventure",
+        "historical"
+      ],
+      "moods": [
+        "gritty",
+        "motivating",
+        "male",
+        "historical",
+        "epic",
+        "summer",
+        "male",
+        "soviet"
+      ],
+      "description": {
+        "ru": "Римский полководец Максимус после предательства оказывается в рабстве и становится гладиатором, стремясь восстановить справедливость и отомстить за семью.",
+        "en": "After being betrayed and enslaved, Roman general Maximus becomes a gladiator, seeking justice and vengeance for his family."
+      },
+      "editorialNote": {
+        "ru": "Масштабная историческая драма о чести, стойкости и борьбе за свободу.",
+        "en": "An epic historical drama about honor, resilience, and the struggle for freedom."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 35 мин",
+      "director": "Ridley Scott",
+      "posterUrl": "/posters/gladiator-2000.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/12678-gladiator.html"
+    },
+    {
+      "id": "harry-potter-and-the-philosophers-stone-2001",
+      "title": {
+        "original": "Harry Potter and the Philosopher's Stone",
+        "ru": "Гарри Поттер и философский камень"
+      },
+      "year": 2001,
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "moods": [
+        "family",
+        "kids",
+        "cozy",
+        "autumn",
+        "halloween",
+        "magic"
+      ],
+      "description": {
+        "ru": "В одиннадцать лет Гарри узнаёт, что он волшебник, и отправляется учиться в Хогвартс, где находит друзей и сталкивается с тайной философского камня.",
+        "en": "On his eleventh birthday, Harry discovers he is a wizard and begins studying at Hogwarts, where he finds friends and encounters the mystery of the Philosopher's Stone."
+      },
+      "editorialNote": {
+        "ru": "Приключение о дружбе, взрослении и открытии волшебного мира, которое стало началом большой фэнтези-саги.",
+        "en": "An adventure about friendship, growing up, and discovering a magical world that launched a beloved fantasy saga."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 32 мин",
+      "director": "Chris Columbus",
+      "posterUrl": "/posters/harry-potter-and-the-philosophers-stone-2001.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/8855-garri-potter-i-filosofskij-kamen.html"
+    },
+    {
+      "id": "home-alone-1990",
+      "title": {
+        "original": "Home Alone",
+        "ru": "Один дома"
+      },
+      "year": 1990,
+      "genres": [
+        "comedy",
+        "adventure"
+      ],
+      "moods": [
+        "family",
+        "kids",
+        "cozy",
+        "winter",
+        "christmas"
+      ],
+      "description": {
+        "ru": "Восьмилетний Кевин случайно остаётся один дома накануне Рождества и придумывает, как защитить дом от двух грабителей.",
+        "en": "Eight-year-old Kevin is accidentally left home alone just before Christmas and comes up with a plan to protect the house from two burglars."
+      },
+      "editorialNote": {
+        "ru": "Праздничная комедия о находчивости, семейных отношениях и неожиданной самостоятельности.",
+        "en": "A holiday comedy about resourcefulness, family bonds, and unexpected independence."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 43 мин",
+      "director": "Chris Columbus",
+      "posterUrl": "/posters/home-Alone-1990.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/17969-odin-doma.html"
+    },
+    {
+      "id": "inception-2010",
+      "title": {
+        "original": "Inception",
+        "ru": "Начало"
+      },
+      "year": 2010,
+      "genres": [
+        "sci-fi",
+        "thriller",
+        "action"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "male",
+        "epic",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Дом Кобб проникает в сны людей, чтобы похищать секреты. Ему предлагают почти невыполнимую задачу: внедрить идею в подсознание цели.",
+        "en": "Dom Cobb enters people's dreams to steal secrets. He is offered a seemingly impossible task: plant an idea in a target's subconscious."
+      },
+      "editorialNote": {
+        "ru": "Научно-фантастический триллер о памяти, вине и границе между сном и реальностью.",
+        "en": "A science-fiction thriller about memory, guilt, and the boundary between dreams and reality."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 28 мин",
+      "director": "Christopher Nolan",
+      "posterUrl": "/posters/inception-2010.jpg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/7301-nachalo.html"
+    },
+    {
+      "id": "interstellar-2014",
+      "title": {
+        "original": "Interstellar",
+        "ru": "Интерстеллар"
+      },
+      "year": 2014,
+      "genres": [
+        "sci-fi",
+        "drama",
+        "adventure"
+      ],
+      "moods": [
+        "epic",
+        "psychological",
+        "motivating",
+        "science",
+        "space",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Когда Земля становится всё менее пригодной для жизни, пилот и инженер Купер отправляется через червоточину на поиски нового дома для человечества.",
+        "en": "As Earth becomes increasingly uninhabitable, pilot and engineer Cooper travels through a wormhole in search of a new home for humanity."
+      },
+      "editorialNote": {
+        "ru": "Масштабная научная фантастика о космических открытиях, времени и связи между родителями и детьми.",
+        "en": "An expansive science-fiction story about space exploration, time, and the bond between parents and children."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 49 мин",
+      "director": "Christopher Nolan",
+      "posterUrl": "/posters/interstellar-2014.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/14187-interstellar.html"
+    },
+    {
+      "id": "ivan-vasilievich-changes-profession-1973",
+      "title": {
+        "original": "Ivan Vasilievich: Back to the Future",
+        "ru": "Иван Васильевич меняет профессию"
+      },
+      "year": 1973,
+      "genres": [
+        "comedy",
+        "sci-fi"
+      ],
+      "moods": [
+        "cozy",
+        "family",
+        "summer",
+        "soviet",
+        "russian",
+        "russia"
+      ],
+      "description": {
+        "ru": "Изобретение инженера Тимофеева случайно меняет местами эпохи: управдом Иван Васильевич оказывается во времена Ивана Грозного, а царь попадает в современную Москву.",
+        "en": "An engineer's invention accidentally swaps two eras: building manager Ivan Vasilievich ends up in the time of Ivan the Terrible, while the tsar lands in modern Moscow."
+      },
+      "editorialNote": {
+        "ru": "Фантастическая комедия положений о путешествии во времени, недоразумениях и столкновении двух эпох.",
+        "en": "A sci-fi comedy of errors about time travel, misunderstandings, and the collision of two eras."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 33 мин",
+      "director": "Леонид Гайдай",
+      "posterUrl": "/posters/ivan-vasilievich-changes-his-profession-1973.jpg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/19763-ivan-vasilevich-menjaet-professiju.html"
+    },
+    {
+      "id": "knives-out-2019",
+      "title": {
+        "original": "Knives Out",
+        "ru": "Достать ножи"
+      },
+      "year": 2019,
+      "genres": [
+        "detective",
+        "thriller",
+        "comedy"
+      ],
+      "moods": [
+        "psychological",
+        "criminal",
+        "aesthetic",
+        "autumn"
+      ],
+      "description": {
+        "ru": "После смерти знаменитого писателя детектив Бенуа Блан расследует запутанное дело, в котором у каждого члена его семьи есть мотив и свои секреты.",
+        "en": "After a celebrated novelist dies, detective Benoit Blanc investigates a tangled case in which every member of the family has a motive and secrets of their own."
+      },
+      "editorialNote": {
+        "ru": "Остроумный детектив с семейными тайнами, неожиданными поворотами и атмосферой старинного особняка.",
+        "en": "A witty mystery full of family secrets, unexpected turns, and the atmosphere of an old mansion."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 10 мин",
+      "director": "Rian Johnson",
+      "posterUrl": "/posters/knives-out-2019.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/16591-dostat-nozhi.html"
+    },
+    {
+      "id": "knockin-on-heavens-door-1997",
+      "title": {
+        "original": "Knockin' on Heaven's Door",
+        "ru": "Достучаться до небес"
+      },
+      "year": 1997,
+      "genres": [
+        "drama",
+        "adventure"
+      ],
+      "moods": [
+        "gritty",
+        "motivating",
+        "male",
+        "psychological",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Двое незнакомцев узнают о тяжёлой болезни и решают провести оставшееся время так, как давно мечтали. Их спонтанное путешествие превращается в череду рискованных приключений.",
+        "en": "Two strangers learn they are seriously ill and decide to spend their remaining time pursuing long-held dreams. Their spontaneous journey turns into a series of risky adventures."
+      },
+      "editorialNote": {
+        "ru": "Драмеди о дружбе, свободе и умении ценить жизнь даже перед лицом неизбежного.",
+        "en": "A dramedy about friendship, freedom, and cherishing life even in the face of the inevitable."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 27 мин",
+      "director": "Thomas Jahn",
+      "posterUrl": "/posters/knockin-on-heavens-door-1997.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/37816-dostuchatsja-do-nebes.html"
+    },
+    {
+      "id": "law-abiding-citizen-2009",
+      "title": {
+        "original": "Law Abiding Citizen",
+        "ru": "Законопослушный гражданин"
+      },
+      "year": 2009,
+      "genres": [
+        "thriller",
+        "action",
+        "drama"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "male",
+        "criminal",
+        "autumn"
+      ],
+      "description": {
+        "ru": "После жестокого преступления против его семьи Клайд Шелтон теряет веру в систему правосудия. Спустя годы он начинает опасную кампанию против тех, кого считает виновными.",
+        "en": "After a violent crime against his family, Clyde Shelton loses faith in the justice system. Years later, he begins a dangerous campaign against those he believes responsible."
+      },
+      "editorialNote": {
+        "ru": "Напряжённый триллер о мести, правосудии и границе между законом и справедливостью.",
+        "en": "A tense thriller about revenge, justice, and the line between law and what is right."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 49 мин",
+      "director": "F. Gary Gray",
+      "posterUrl": "/posters/law-abiding-citizen-2009.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/7754-zakonoposlushnyj-grazhdanin.html"
+    },
+    {
+      "id": "the-matrix-1999",
+      "title": {
+        "original": "The Matrix",
+        "ru": "Матрица"
+      },
+      "year": 1999,
+      "genres": [
+        "action",
+        "sci-fi",
+        "thriller"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "male",
+        "epic",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Программист Томас Андерсон узнаёт, что привычная реальность — искусственная конструкция, и присоединяется к тем, кто борется за освобождение человечества.",
+        "en": "Programmer Thomas Anderson discovers that ordinary reality is an artificial construct and joins those fighting to free humanity."
+      },
+      "editorialNote": {
+        "ru": "Научно-фантастический боевик о выборе, свободе воли и природе реальности.",
+        "en": "A science-fiction action film about choice, free will, and the nature of reality."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 16 мин",
+      "director": "Lana and Lilly Wachowski",
+      "posterUrl": "/posters/matrix-1999.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/13855-matrica.html"
+    },
+    {
+      "id": "memoirs-of-a-geisha-2005",
+      "title": {
+        "original": "Memoirs of a Geisha",
+        "ru": "Мемуары гейши"
+      },
+      "year": 2005,
+      "genres": [
+        "drama",
+        "romance"
+      ],
+      "moods": [
+        "romantic",
+        "female",
+        "historical",
+        "aesthetic",
+        "autumn",
+        "japan"
+      ],
+      "description": {
+        "ru": "В довоенной Японии девочка по имени Тиё попадает в дом гейш и со временем становится Саюри, пытаясь найти собственный путь в мире традиций, соперничества и перемен.",
+        "en": "In prewar Japan, a girl named Chiyo enters a geisha house and grows into Sayuri, seeking her own path amid tradition, rivalry, and change."
+      },
+      "editorialNote": {
+        "ru": "Визуально выразительная историческая драма о взрослении, стойкости и поиске любви в мире строгих правил.",
+        "en": "A visually rich historical drama about coming of age, resilience, and the search for love within a world of strict rules."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 25 мин",
+      "director": "Rob Marshall",
+      "posterUrl": "/posters/memoirs-of-a-geisha-2005.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/5683-memuary-gejshi.html"
+    },
+    {
+      "id": "oceans-8-2018",
+      "title": {
+        "original": "Ocean's Eight",
+        "ru": "8 подруг Оушена"
+      },
+      "year": 2018,
+      "genres": [
+        "comedy",
+        "crime"
+      ],
+      "moods": [
+        "female",
+        "motivating",
+        "aesthetic",
+        "summer",
+        "autumn",
+        "criminal"
+      ],
+      "description": {
+        "ru": "Дебби Оушен выходит из тюрьмы и собирает команду из семи талантливых сообщниц, чтобы провернуть дерзкое ограбление на знаменитом балу Met Gala.",
+        "en": "Debbie Ocean leaves prison and assembles a crew of seven skilled accomplices to pull off a daring heist at the famed Met Gala."
+      },
+      "editorialNote": {
+        "ru": "Лёгкая криминальная комедия о командной работе, стильном ограблении и тщательно продуманном плане.",
+        "en": "A breezy crime comedy about teamwork, a stylish heist, and a carefully plotted scheme."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 50 мин",
+      "director": "Gary Ross",
+      "posterUrl": "/posters/oceans-8-2018.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/13612-8-podrug-oushena.html"
+    },
+    {
+      "id": "parasite-2019",
+      "title": {
+        "original": "Parasite",
+        "ru": "Паразиты"
+      },
+      "year": 2019,
+      "genres": [
+        "drama",
+        "thriller",
+        "comedy"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "korean",
+        "japan",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Когда сын бедной семьи Ким устраивается репетитором в дом состоятельных Паков, за ним туда постепенно попадают и остальные родственники. Их хитроумный план оборачивается чередой неожиданных перемен.",
+        "en": "When the son of the impoverished Kim family becomes a tutor in the wealthy Park household, the rest of his relatives gradually find their way in too. Their elaborate plan leads to a series of unexpected turns."
+      },
+      "editorialNote": {
+        "ru": "Остроумная и напряжённая история о классовом неравенстве, в которой сатира постепенно превращается в триллер.",
+        "en": "A witty, tense story about class inequality, where sharp satire gradually gives way to thriller."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 12 мин",
+      "director": "Bong Joon Ho",
+      "posterUrl": "/posters/parasite-2019.jpeg",
+      "ratings": 4,
+      "filmUrl": "https://kinogo.online/filmy/16961-parazity.html"
+    },
+    {
+      "id": "spirited-away-2001",
+      "title": {
+        "original": "Spirited Away",
+        "ru": "Унесённые призраками"
+      },
+      "year": 2001,
+      "genres": [
+        "animation",
+        "fantasy",
+        "adventure"
+      ],
+      "moods": [
+        "family",
+        "cozy",
+        "japan",
+        "aesthetic",
+        "anime"
+      ],
+      "description": {
+        "ru": "Во время переезда десятилетняя Тихиро оказывается в загадочном мире духов. Чтобы спасти родителей и вернуться домой, ей предстоит работать в необычной купальне и найти в себе смелость.",
+        "en": "During a family move, ten-year-old Chihiro finds herself in a mysterious world of spirits. To save her parents and return home, she must work in an extraordinary bathhouse and discover her courage."
+      },
+      "editorialNote": {
+        "ru": "Завораживающее анимационное путешествие о взрослении, доброте и смелости перед лицом неизвестного.",
+        "en": "A spellbinding animated journey about growing up, kindness, and finding courage in the face of the unknown."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 05 мин",
+      "director": "Hayao Miyazaki",
+      "posterUrl": "/posters/spirited-Away-2001.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogomy.net/anime/11412-unesennye-prizrakami-hd-3010.html"
+    },
+    {
+      "id": "tango-and-cash-1989",
+      "title": {
+        "original": "Tango & Cash",
+        "ru": "Танго и Кэш"
+      },
+      "year": 1989,
+      "genres": [
+        "action",
+        "comedy",
+        "thriller"
+      ],
+      "moods": [
+        "male",
+        "gritty",
+        "criminal"
+      ],
+      "description": {
+        "ru": "Два соперничающих лос-анджелесских полицейских — сдержанный Рэй Танго и импульсивный Гейб Кэш — оказываются за решёткой из-за подставы и вынуждены объединиться, чтобы разоблачить настоящего преступника.",
+        "en": "Two rival Los Angeles detectives—reserved Ray Tango and impulsive Gabe Cash—are framed and sent to prison, where they must join forces to expose the real criminal."
+      },
+      "editorialNote": {
+        "ru": "Заряженный экшеном боевик о вынужденном напарничестве, соперничестве и остроумных перепалках.",
+        "en": "An action-packed buddy-cop film full of reluctant teamwork, rivalry, and witty banter."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 44 мин",
+      "director": "Andrei Konchalovsky",
+      "posterUrl": "/posters/tango-&-cash-1989.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/11126-tango-i-kjesh.html"
+    },
+    {
+      "id": "the-devil-wears-prada-2006",
+      "title": {
+        "original": "The Devil Wears Prada",
+        "ru": "Дьявол носит Prada"
+      },
+      "year": 2006,
+      "genres": [
+        "comedy",
+        "drama"
+      ],
+      "moods": [
+        "female",
+        "motivating",
+        "aesthetic",
+        "autumn",
+        "fashion",
+        "summer"
+      ],
+      "description": {
+        "ru": "Молодая журналистка Энди устраивается помощницей к влиятельному редактору модного журнала Миранде Пристли. Стремясь справиться с непростой работой, она постепенно меняет взгляд на карьеру и собственные приоритеты.",
+        "en": "Young journalist Andy becomes assistant to Miranda Priestly, the formidable editor of a fashion magazine. As she struggles to meet the demands of the job, her ideas about career and personal priorities begin to change."
+      },
+      "editorialNote": {
+        "ru": "Ироничная история о мире моды, амбициях и цене профессионального успеха.",
+        "en": "A witty story about the fashion world, ambition, and the cost of professional success."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 49 мин",
+      "director": "David Frankel",
+      "posterUrl": "/posters/the-devil-wears-prada-2006.jpeg",
+      "ratings": 4,
+      "filmUrl": "https://kinogo.online/filmy/27721-djavol-nosit-prada.html"
+    },
+    {
+      "id": "the-diamond-arm-1969",
+      "title": {
+        "original": "The Diamond Arm",
+        "ru": "Бриллиантовая рука"
+      },
+      "year": 1969,
+      "genres": [
+        "comedy",
+        "adventure"
+      ],
+      "moods": [
+        "soviet",
+        "cozy",
+        "nostalgic",
+        "russia",
+        "family"
+      ],
+      "description": {
+        "ru": "Во время заграничного путешествия Семён Семёнович Горбунков случайно становится участником контрабандной истории: вместо гипса ему накладывают повязку с драгоценностями. Теперь контрабандистам нужно вернуть груз, а милиции — помочь им помешать.",
+        "en": "During a trip abroad, Semyon Semyonovich Gorbunkov accidentally becomes involved in a smuggling scheme: a cast containing jewels is put on his arm. The smugglers want their cargo back, while the police need his help to stop them."
+      },
+      "editorialNote": {
+        "ru": "Любимая советская комедия с узнаваемыми персонажами, абсурдными ситуациями и цитатами, давно ставшими частью культуры.",
+        "en": "A beloved Soviet comedy with memorable characters, absurd situations, and lines that have become part of the culture."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 40 мин",
+      "director": "Leonid Gaidai",
+      "posterUrl": "/posters/the-diamond-arm-1969.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/8542-brilliantovaja-ruka.html"
+    },
+    {
+      "id": "the-green-mile-1999",
+      "title": {
+        "original": "The Green Mile",
+        "ru": "Зелёная миля"
+      },
+      "year": 1999,
+      "genres": [
+        "drama",
+        "fantasy",
+        "crime"
+      ],
+      "moods": [
+        "emotional",
+        "psychological",
+        "criminal",
+        "male"
+      ],
+      "description": {
+        "ru": "В тюрьме для приговорённых к смерти надзиратель Пол Эджкомб знакомится с необычным заключённым Джоном Коффи, чьи удивительные способности меняют жизнь окружающих и заставляют усомниться в привычных представлениях о справедливости.",
+        "en": "On death row, guard Paul Edgecomb meets an unusual prisoner named John Coffey, whose extraordinary abilities change the lives around him and challenge familiar ideas of justice."
+      },
+      "editorialNote": {
+        "ru": "Пронзительная тюремная драма с элементами мистики — история о сострадании, чуде и человеческом достоинстве.",
+        "en": "A moving prison drama with mystical elements, exploring compassion, wonder, and human dignity."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "3 ч 09 мин",
+      "director": "Frank Darabont",
+      "posterUrl": "/posters/the-green-mile-1999.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/29367-zelenaja-milja.html"
+    },
+    {
+      "id": "the-lion-king-1994",
+      "title": {
+        "original": "The Lion King",
+        "ru": "Король Лев"
+      },
+      "year": 1994,
+      "genres": [
+        "animation",
+        "adventure",
+        "drama"
+      ],
+      "moods": [
+        "family",
+        "kids",
+        "emotional",
+        "africa",
+        "summer"
+      ],
+      "description": {
+        "ru": "Молодой лев Симба после трагической гибели отца покидает родные земли. Повзрослев, он должен преодолеть страх и вернуться, чтобы защитить прайд и занять своё место в круге жизни.",
+        "en": "After the tragic death of his father, young lion Simba leaves his homeland. As an adult, he must overcome his fears and return to protect the pride and claim his place in the circle of life."
+      },
+      "editorialNote": {
+        "ru": "Знаменательная история о взрослении, ответственности и семье с запоминающимися песнями и ярким миром саванны.",
+        "en": "A landmark story of growing up, responsibility, and family, filled with memorable songs and a vivid savanna world."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 28 мин",
+      "director": "Roger Allers and Rob Minkoff",
+      "posterUrl": "/posters/the-lion-king-1994.jpg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/multfilmy/30585-korol-lev.html"
+    },
+    {
+      "id": "the-lord-of-the-rings-the-fellowship-of-the-ring-2001",
+      "title": {
+        "original": "The Lord of the Rings: The Fellowship of the Ring",
+        "ru": "Властелин колец: Братство кольца"
+      },
+      "year": 2001,
+      "genres": [
+        "adventure",
+        "fantasy",
+        "action"
+      ],
+      "moods": [
+        "epic",
+        "adventure",
+        "friendship",
+        "fantasy"
+      ],
+      "description": {
+        "ru": "Хоббит Фродо получает Кольцо Всевластия и отправляется в опасное путешествие, чтобы уничтожить его. Вместе с ним в путь выступает Братство, которому предстоит противостоять силам тьмы.",
+        "en": "Hobbit Frodo inherits the One Ring and sets out on a perilous quest to destroy it. A Fellowship joins him on the journey, facing the growing forces of darkness."
+      },
+      "editorialNote": {
+        "ru": "Начало масштабной фэнтезийной саги о дружбе, мужестве и путешествии, от которого зависит судьба Средиземья.",
+        "en": "The beginning of an epic fantasy saga about friendship, courage, and a journey that will decide the fate of Middle-earth."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 58 мин",
+      "director": "Peter Jackson",
+      "posterUrl": "/posters/the-lord-of-the-rings-the-fellowship-of-the-ring-2001.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/15450-vlastelin-kolec-bratstvo-kolca.html"
+    },
+    {
+      "id": "the-shawshank-redemption-1994",
+      "title": {
+        "original": "The Shawshank Redemption",
+        "ru": "Побег из Шоушенка"
+      },
+      "year": 1994,
+      "genres": [
+        "drama",
+        "crime"
+      ],
+      "moods": [
+        "emotional",
+        "gritty",
+        "hopeful",
+        "criminal",
+        "autumn",
+        "summer"
+      ],
+      "description": {
+        "ru": "Банкир Энди Дюфрейн получает два пожизненных срока за преступление, которого не совершал, и оказывается в тюрьме Шоушенк. Там он находит дружбу и не теряет надежды на свободу.",
+        "en": "Banker Andy Dufresne is sentenced to two life terms for a crime he did not commit and sent to Shawshank prison. There, he finds friendship and never gives up hope of freedom."
+      },
+      "editorialNote": {
+        "ru": "Пронзительная драма о надежде, стойкости и человеческом достоинстве даже в самых тяжёлых обстоятельствах.",
+        "en": "A moving drama about hope, resilience, and human dignity even under the harshest circumstances."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 22 мин",
+      "director": "Frank Darabont",
+      "posterUrl": "/posters/the-shawshank-redemption-1994.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/9400-pobeg-iz-shoushenka.html"
+    },
+    {
+      "id": "the-shining-1980",
+      "title": {
+        "original": "The Shining",
+        "ru": "Сияние"
+      },
+      "year": 1980,
+      "genres": [
+        "horror",
+        "thriller",
+        "drama"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "winter",
+        "male"
+      ],
+      "description": {
+        "ru": "Писатель Джек Торранс приезжает с женой и сыном в уединённый отель «Оверлук», чтобы присматривать за ним зимой. Изоляция и зловещая история отеля постепенно начинают влиять на его рассудок.",
+        "en": "Writer Jack Torrance takes a job as winter caretaker at the remote Overlook Hotel, bringing his wife and son with him. The isolation and the hotel's sinister history gradually begin to affect his sanity."
+      },
+      "editorialNote": {
+        "ru": "Классика психологического хоррора, где чувство тревоги рождается из изоляции, молчания и медленно нарастающего безумия.",
+        "en": "A psychological horror classic where dread grows from isolation, silence, and slowly mounting madness."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "2 ч 26 мин",
+      "director": "Stanley Kubrick",
+      "posterUrl": "/posters/the-shining-1980.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/14860-sijanie.html"
+    },
+    {
+      "id": "the-silence-of-the-lambs-1991",
+      "title": {
+        "original": "The Silence of the Lambs",
+        "ru": "Молчание ягнят"
+      },
+      "year": 1991,
+      "genres": [
+        "thriller",
+        "crime",
+        "drama"
+      ],
+      "moods": [
+        "psychological",
+        "gritty",
+        "criminal",
+        "autumn"
+      ],
+      "description": {
+        "ru": "Стажёрка ФБР Клариса Старлинг обращается за помощью к заключённому психиатру Ганнибалу Лектеру, чтобы понять ход мыслей серийного убийцы и найти его следующую жертву.",
+        "en": "FBI trainee Clarice Starling seeks help from imprisoned psychiatrist Hannibal Lecter to understand the mind of a serial killer and find his next victim."
+      },
+      "editorialNote": {
+        "ru": "Напряжённый психологический триллер о расследовании, где интеллектуальное противостояние становится не менее важным, чем погоня за преступником.",
+        "en": "A tense psychological thriller in which an intellectual battle matters as much as the pursuit of a killer."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 58 мин",
+      "director": "Jonathan Demme",
+      "posterUrl": "/posters/the-silence-of-the-lambs-1991.jpeg",
+      "ratings": 3,
+      "filmUrl": "https://kinogo.online/filmy/6191-molchanie-jagnjat.html"
+    },
+    {
+      "id": "the-tourist-2010",
+      "title": {
+        "original": "The Tourist",
+        "ru": "Турист"
+      },
+      "year": 2010,
+      "genres": [
+        "thriller",
+        "romance",
+        "action"
+      ],
+      "moods": [
+        "romantic",
+        "aesthetic",
+        "travel",
+        "italy",
+        "summer",
+        "criminal"
+      ],
+      "description": {
+        "ru": "Американский турист Фрэнк знакомится в поезде с загадочной Элизой, которая вовлекает его в опасную игру с преступниками и полицией на фоне изысканных улиц Венеции.",
+        "en": "American tourist Frank meets the mysterious Elise on a train and is drawn into a dangerous game involving criminals and police against the elegant backdrop of Venice."
+      },
+      "editorialNote": {
+        "ru": "Романтический триллер с погонями, загадками и атмосферными видами Венеции.",
+        "en": "A romantic thriller filled with chases, intrigue, and atmospheric views of Venice."
+      },
+      "quotes": {
+        "items": [],
+        "notFoundMessage": {
+          "ru": "К данному фильму цитат не обнаружено.",
+          "en": "No notable quotes have been found for this film."
+        }
+      },
+      "runtimeMinutes": "1 ч 43 мин",
+      "director": "Florian Henckel von Donnersmarck",
+      "posterUrl": "/posters/the-tourist-2010.jpeg",
+      "ratings": 5,
+      "filmUrl": "https://kinogo.online/filmy/179-turist.html"
     }
   ]
 }
